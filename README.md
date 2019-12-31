@@ -2,8 +2,8 @@
 Multi-label classifier for predicting photosynthetic protein via genome neighborhood feature<br>
 
 ========= install ==============<br>
-- download script from github
-- download tools from ....
+- download scripts from github (PhotoMod2-master)
+- download tools from https://drive.google.com/file/d/1q3C3i8EDdJ7B-HOejMd7l5z8DRhFAECe/view?usp=sharing
 - extract tools and put them in the same folder of PhotoMod2-master 
 - make conda environment using file photomod2.yml
 
