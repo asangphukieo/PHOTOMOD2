@@ -12,6 +12,6 @@ python run.py [input fasta] [blast evalue] [cpu core] [ram(GB)] [blast hit] <br>
 (e.g. python run.py test_protein.fasta 1e-25 8 2 1)
 
 =========== citation ==============<br>
-PhotoModPlus: A webserver for photosynthetic protein prediction from a genome neighborhood feature
+PhotoModPlus: A webserver for photosynthetic protein prediction from a genome neighborhood feature.
 Apiwat Sangphukieo, Teeraphan Laomettachit, Marasri Ruengjitchatchawalya
 bioRxiv 2020.05.10.087635; doi: https://doi.org/10.1101/2020.05.10.087635
