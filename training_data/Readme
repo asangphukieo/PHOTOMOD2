@@ -1,0 +1,24 @@
+# to generate fasta file of training dataset
+
+1. Download database genome of all_154genomes.fasta
+* all protein sequences of 154 photosynthetic bacterial genomes
+https://storage.cloud.google.com/platinumgenome/all_154genomes.fasta
+
+2. Download python script select_fasta_by_header.py
+#required Biopython
+wget https://raw.githubusercontent.com/asangphukieo/useful_script/main/fasta/select_fasta_by_header.py
+
+3. Install Biopython using anaconda `conda install -c conda-forge biopython`
+
+4. Extract fasta file of positive dataset or negative dataset using command e.g.
+
+* training set
+positive dataset
+uniq_prodigal_prot_positive_data.out
+
+negative dataset
+uniq_prodigal_prot_negative_data.out
+
+`python select_fasta_by_header.py uniq_prodigal_prot_positive_data.out all_154genomes.fasta positive_output.fasta`
+
+`python select_fasta_by_header.py uniq_prodigal_prot_negative_data.out all_154genomes.fasta negative_output.fasta`
